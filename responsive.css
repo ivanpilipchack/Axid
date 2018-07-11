@@ -1,0 +1,384 @@
+@media screen and (max-width: 1180px) {
+    html {
+        font-size: 90%;
+    }
+    .header_top {
+        position: relative;
+    }
+    .nav__link {
+        opacity: 0.69;
+        font-size: 14px;
+    }
+    .link {
+        padding-right: 34px;
+    }
+    .form_one {
+        width: 250px;
+    }
+    .headling_forms {
+        margin-right: 100px;
+        max-width: 300px;
+    }
+    .headling_one {
+        font-size: 26px;
+    }
+    .headling {
+        margin-left: 60px;
+    }
+    .social_about {
+        padding: 10 8 48 15px;
+    }
+    .tabs-foto {
+        padding-left: 10px;
+        width: 32%;
+    }
+    .dom {
+        max-width: 250px;
+    }
+    .tabs_button {
+        padding-left: 15px;
+    }
+    .tabs_btn_two {
+        margin-left: 95px;
+        margin-top: 50px;
+    }
+    .detal_inside {
+        padding-left: 20px;
+    }
+    .detal_insides {
+        padding-left: 40px;
+    }
+    .detal_img {
+        max-width: 340px;
+    }
+    .foto_rigth {
+        margin-left: 40px;
+        max-width: 340px;
+    }
+    .blog_wrapp {
+        width: 96%;
+    }
+    .blog_abouts {
+        width: 26%;
+    }
+    .massage {
+        max-width: 307px;
+    }
+    .contact_one {
+        max-width: 307px;
+    }
+    .items {
+        display: block;
+        margin: 0 auto;
+    }
+    .blog_abouts {
+        margin: 25px;
+    }
+}
+
+@media screen and (max-width: 885px) {
+    html {
+        font-size: 70%;
+    }
+    .header_top {}
+    .top_logo {
+        margin-left: 30px;
+    }
+    .heading_logo {
+        width: 160px;
+    }
+    .nav {
+        margin-right: 10px;
+    }
+    .headling_forms {
+        margin-right: 40px;
+        max-width: 250px;
+    }
+    .form_one {
+        max-width: 200px;
+    }
+    .headling_one {
+        font-size: 22px;
+    }
+    .headling_text {
+        line-height: 18px;
+        font-size: 12px;
+        margin-right: 17px;
+    }
+    .social_media {
+        display: flex;
+        flex-direction: column;
+    }
+    .social_about {
+        width: 98%;
+        margin: 0 auto;
+        text-align: justify;
+        margin-bottom: 80px;
+    }
+    .social_icons {
+        width: 98%;
+        margin: 0 auto;
+    }
+    .social_head {
+        text-align: center;
+    }
+    .social_text {
+        text-align: center;
+    }
+    .tabs_wrapp {
+        display: flex;
+        flex-direction: column;
+    }
+    .tabs_button {
+        width: 97%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .tabs_text {
+        margin: 0 auto;
+        width: 80%;
+    }
+    .tabs_head {
+        text-align: center;
+    }
+    .tabs_par {
+        text-align: center;
+    }
+    .tabs_btn_two {
+        display: block;
+        margin: 0 auto;
+    }
+    .tabs_foto {
+        margin: 0 auto;
+        padding-left: 15px;
+    }
+    .contacts_wrapp {
+        display: flex;
+        flex-direction: column;
+    }
+    .contacts_form {
+        width: 527px;
+        margin: 0 auto;
+    }
+    .state_head {
+        font-size: 28px;
+    }
+    .detal_wrapp {
+        display: flex;
+        flex-direction: column;
+    }
+    .detal_inside {
+        max-width: 99%;
+        margin: 0 auto;
+        padding-left: 0px;
+    }
+    .homes_wrapp {
+        display: flex;
+        flex-direction: column;
+    }
+    .detal_img {
+        display: block;
+        max-width: 378px;
+        margin: 0 auto;
+    }
+    .detal_insides {
+        width: 99%;
+        height: auto;
+        margin-top: 110px;
+        padding-left: 0px;
+    }
+    .detal_head {
+        text-align: center;
+    }
+    .inside_foto {
+        display: block;
+        margin: 0 auto;
+    }
+    .detal_text {
+        text-align: center;
+    }
+    .detal_title {
+        text-align: center;
+    }
+    .homes_text {
+        width: 99%;
+    }
+    .homes_head {
+        text-align: center;
+    }
+    .homes_img {
+        display: block;
+        margin: 0 auto;
+    }
+    .homes_par {
+        text-align: center;
+    }
+    .homes_foto {
+        display: block;
+        margin: 0 auto;
+        padding-left: 0px;
+    }
+    .foto_rigth {
+        margin-left: 0px;
+        max-width: 340px;
+    }
+    .servis_head {
+        font-size: 30px;
+    }
+    .items_text {
+        font-size: 18px;
+    }
+    .items_par {
+        font-size: 13px;
+        line-height: 18px;
+        padding: 5px;
+    }
+    .state_wrapp {
+        display: flex;
+        flex-direction: column;
+    }
+    .state_main {
+        margin: 0 auto;
+        width: 70%;
+        margin-bottom: 70px;
+    }
+    .state_mains {
+        margin: 0 auto;
+        width: 70%;
+        margin-bottom: 70px;
+    }
+    .colum_wrapp {
+        display: flex;
+        flex-direction: column;
+    }
+    .colum_menu {
+        margin: 0 auto;
+        width: 70%;
+        margin-bottom: 30px;
+    }
+    .blog_head {
+        font-size: 28px;
+    }
+    .blog_wrapp {
+        display: flex;
+        flex-direction: column;
+    }
+    .blog_abouts {
+        width: 70%;
+        margin: 0 auto;
+    }
+    .wiki_tex {
+        text-align: center;
+    }
+    .city_head {
+        font-size: 30px;
+    }
+    .city_text {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    html {
+        font-size: 70%;
+    }
+    .header_top {
+        height: 100px;
+    }
+    .nav {
+        margin-right: 1px;
+        margin-top: 15px;
+    }
+    .nav_list {
+        padding-right: 4px;
+    }
+    .link {
+        padding-right: 14px;
+    }
+    .headling {
+        padding-top: 20px;
+        margin-left: 5px;
+    }
+    .headling_logo {
+        margin-bottom: 10px;
+    }
+    .headling_two {
+        margin-bottom: 10px;
+    }
+    .headling_text {
+        line-height: 16px;
+        margin-bottom: 10px;
+    }
+    .headling_forms {
+        margin-top: -500px;
+        width: 270px;
+        height: auto;
+        margin-right: 5px;
+    }
+    .form_text {
+        padding-bottom: 7px;
+        padding-top: 7px;
+        font-size: 16px;
+        margin-bottom: 5px;
+    }
+    .social_icons {
+        width: 78%;
+        margin: 0 auto;
+    }
+    .tabs {
+        padding: 30px 0 30px;
+    }
+    .tabs_par {
+        font-size: 13px;
+        line-height: 2;
+    }
+    .detal_inside {
+        padding: 0px;
+        width: 99%;
+    }
+    .detal_img {
+        max-width: 89%;
+    }
+    .homes_foto {
+        max-width: 99%;
+        padding: 0px;
+        margin: 0px;
+    }
+    .foto_rigth {
+        max-width: 400px;
+        margin: 0px;
+    }
+    .servis_wrapp {
+        display: flex;
+        flex-direction: column;
+    }
+    .servise_item {
+        max-width: 80%;
+        margin: 0 auto;
+    }
+    .main_head {
+        font-size: 74px;
+        line-height: 20px;
+    }
+    .blog {
+        padding: 30px 30px;
+    }
+    .city_content {
+        padding: 20px 20px;
+        margin: 20px;
+    }
+    .city_head {
+        padding-top: 5px;
+    }
+    .contacts_form {
+        max-width: 400px;
+        margin: 0 auto;
+    }
+    .contacts_one {
+        margin-bottom: 18px;
+        padding-left: 3px;
+        max-width: 350px;
+        height: 31px;
+    }
+}
