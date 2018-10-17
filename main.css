@@ -28,7 +28,7 @@ body {
 header {
     background-image: url("img/background1.jpg");
     background-repeat: no-repeat;
-    background-color: rgba(0, 0, 0, 0.52);
+    background-color: rgba(0, 0, 0, 0.92);
     background-position: center;
     background-size: cover;
     position: relative;
@@ -41,7 +41,7 @@ header {
     right: 0;
     bottom: 0;
     left: 0;
-    background-color: rgba(0, 0, 0, 0.52);
+    background-color: rgba(0, 0, 0, 0.92);
     width: 100%;
     height: 600px;
 }
@@ -53,6 +53,7 @@ header {
 }
 
 .header_top {
+    display: none;
     background: #000000;
     position: fixed;
     top: 0;
@@ -62,12 +63,13 @@ header {
 }
 
 .top_logo {
-    margin: 21px 0 21px 151px;
+    margin: 21px 0px 0px 151px;
 }
 
 .nav {
     float: right;
     margin-top: 25px;
+    padding-bottom: 21px;
     margin-right: 63px;
 }
 
@@ -131,6 +133,11 @@ header {
     margin-bottom: 35px;
 }
 
+.ok {
+    font-size: 35px;
+    margin-bottom: 0px;
+}
+
 .headling_btn {
     background: none;
     padding: 14px 30px 14px 30px;
@@ -140,7 +147,12 @@ header {
     font-weight: 400;
 }
 
-.headling_btn:hover {
+.eror {
+    border: 1px solid red;
+}
+
+.headling_btn:hover,
+.form_text:hover {
     animation-name: background-color;
     animation-duration: 1000ms;
     animation-fill-mode: forwards;
@@ -152,17 +164,17 @@ header {
     }
 }
 
+.adds {
+    color: goldenrod;
+    text-shadow: 0 0 20px goldenrod;
+}
+
 .headling_forms {
     float: right;
-    background: white;
+    background: none;
     width: 354px;
     height: 321px;
     margin-top: -550px;
-}
-
-.headling_forms:hover {
-    transform: scale(1.6);
-    transition: 2s;
 }
 
 .hedling_form {
@@ -170,14 +182,17 @@ header {
 }
 
 .form_text {
+    background: #212121;
     text-align: center;
     padding-bottom: 17px;
     padding-top: 17px;
-    color: #333333;
+    color: white;
     font-family: "Open Sans";
     font-size: 20px;
     font-weight: 700;
+    margin-top: 0px;
     margin-bottom: 17px;
+    cursor: pointer
 }
 
 .text_one {
@@ -187,8 +202,11 @@ header {
     font-weight: 700;
 }
 
-.form_wpapper {
+.form_wpapper {}
+
+.form_none {
     text-align: center;
+    display: none;
 }
 
 .form_one {
@@ -199,22 +217,20 @@ header {
     height: 31px;
     box-shadow: 0 1px 0 rgba(0, 0, 1, 0.16);
     border: 1px solid white;
+    border-radius: 10px;
 }
 
 input::-webkit-input-placeholder {
-    color: #bdbdbd;
     font-family: "Open Sans";
     font-size: 14px;
-    font-weight: 400;
+    font-weight: bold;
 }
 
-input:-moz-placeholder {
-    color: #bdbdbd;
-}
+input:-moz-placeholder {}
 
 .form_button {
     width: 100%;
-    background: #ff9b51;
+    background: #0e0d0d;
     border: none;
     margin-top: 33px;
     text-align: center;
